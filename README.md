@@ -1,1 +1,1 @@
-# the-mitigator
+# The Mitigator
