@@ -1964,7 +1964,6 @@ const key = {
 
     x: false
 }
-const cvs = document.createElement('canvas')
 const ctx = cvs.getContext('2d')
 
 const cam = new Camera(0, 0)
@@ -1977,7 +1976,6 @@ let scale = 0
 let game = false
 
 map.generate()
-document.body.appendChild(cvs)
 addEventListener('resize', resize)
 addEventListener('keydown', e => {
     if (e.repeat) return
